@@ -115,7 +115,7 @@ function gameOver(){ // checks if game is over (win or lose)
 			$("#battle").html("You defeated " + enemy + "! You win!");
 			$("#enemiesLeft").empty();
 		} 
-		else if (enemyHP <= 0 && characterHP <=0){ // Draw
+		else if (enemyHP <= 0 && characterHP <=0){ // Draw... maybe?
 			$("#defender").empty().html("<h2>Defender</h2>");
 			$("#battle").html("Draw!");
  		}
