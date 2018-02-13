@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	text-align:center;
+	background: url("../images/background.jpg");
+	background-size: 100%;
+}
+
+h1 {
+	font-size: 100px;
+	color: orange;
+	-webkit-text-stroke-width: 2px;
+   	-webkit-text-stroke-color: black;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+figure {
+	margin: 5px;
+	display:inline-block;
+}
+
+#container {
+	margin-top: 20px;
+	padding-top: 50px;
+	background:rgba(255,255,255,0.7);
+	height:450px;
+}
+
+#userChar{
+	margin-top:30px;
+	position:fixed;
+	left:10%;
+	top:13.5%
+}
+
+#defender {
+	margin-top: 30px;
+	position:fixed;
+	right:10%;
+	top:13.5%;
+}
+
+#battle {
+	margin-top: 30px;
+	font-size:30px;
+}
+
+figcaption {
+	font-size: 25px;
+}
